@@ -50,9 +50,11 @@
   "engines": {
     "node": ">=10.0"
   },
+  "peerDependencies": {
+    "graphql": "^15.3.0"
+  },
   "dependencies": {
     "apollo-link": "^1.2.13",
-    "graphql": "^14.5.8",
     "lodash": "^4.17.15",
     "zen-observable-ts": "^0.8.21"
   },
